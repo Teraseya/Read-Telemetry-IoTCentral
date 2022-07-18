@@ -1,6 +1,6 @@
 # Citire telemetrie in Azure IoT Central
-Unul din scenariile des intinite in Azure IoT Central este ca un device sa vrea sa accesze telemetria unui alt device conecta la acceasi IoT Central.
-Un exemplu de astfel de scenariu este un device se ocupa cu afisare dateleor colectate de la celalte device, toate device fiind conectate la acceasi IoT Central.
+Unul din scenariile des intinite in Azure IoT Central este ca un device sa vrea sa accesze telemetria unui alt device conectat la acceasi IoT Central.
+Un exemplu de astfel de scenariu este un device se ocupa cu afisare datelor colectate de la celalte device, toate device fiind conectate la acceasi IoT Central.
 ![OSS](https://user-images.githubusercontent.com/14031360/179508291-d7398901-72ff-439e-ab04-b64b53f04f1b.jpg)
 
 Acest scenariu din nefericere nu este posibil in acest moment in Azure IoT Central.
@@ -22,7 +22,7 @@ Functia folosind Azure IoT Central REST API interogheaza device pentru date.
 Functia excuta o comanda pe device care a cerut datele, care are ca paramaetru datele citite. Si in acest s-ar pute folosi un device twin.
 ![OSS2](https://user-images.githubusercontent.com/14031360/179508614-10ff7272-442f-40df-84e1-12195780c8c7.jpg)
 
-Exemplu explicat (lipseste autenficarea)
+Exemplu explicat (atentie lipseste autenficarea)
 ``` c#
 using (HttpRequestMessage httpRequestMessage = new HttpRequestMessage())
  {
