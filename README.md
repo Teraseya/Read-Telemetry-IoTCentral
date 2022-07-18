@@ -49,6 +49,6 @@ using (HttpRequestMessage httpRequestMessage = new HttpRequestMessage())
             }
             log.LogInformation("Telemetry interrogation failed");
          }
-        return -1;
+        return -256;
     }
 ``` 
