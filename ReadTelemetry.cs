@@ -6,7 +6,7 @@
         /// <param name="telemetry">What telemetry to read.</param>
         /// <param name="log">A <see cref="ILogger"/> for logging.</param>
         /// <returns>-256 if error, otherwise the telemetry value.</returns>
-		/// <remarks>yourkey and yourapp you must change to the actual values for your IoT Central app.
+	/// <remarks>yourkey and yourapp you must change to the actual values for your IoT Central app.
         /// </remarks>
         private static async Task<float> ReadTelemetry(string deviceId, string telemetry, ILogger log)
         {
