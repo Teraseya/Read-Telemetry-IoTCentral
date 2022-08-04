@@ -1,4 +1,4 @@
-		/// <summary>
+	/// <summary>
         /// Reads the specified telemetry from
         /// thes specified device.
         /// </summary>
