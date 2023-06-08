@@ -1,5 +1,5 @@
 # Citire telemetrie in Azure IoT Central
-Unul din scenariile des intinite in Azure IoT Central este ca un device sa vrea sa accesze telemetria unui alt device conectat la acceasi IoT Central.
+Unul din scenariile des intinite in Azure IoT Central este ca un device sa vrea sa acceseze telemetria unui alt device conectat la acceasi IoT Central.
 Un exemplu de astfel de scenariu este un device se ocupa cu afisare datelor colectate de la celalte device, toate device fiind conectate la acceasi IoT Central.
 ![OSS](https://user-images.githubusercontent.com/14031360/179508291-d7398901-72ff-439e-ab04-b64b53f04f1b.jpg)
 
