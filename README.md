@@ -22,7 +22,7 @@ Functia folosind Azure IoT Central REST API interogheaza device pentru date.
 Functia excuta o comanda pe device care a cerut datele, care are ca paramaetru datele citite. Si in acest s-ar pute folosi un device twin.
 ![OSS2](https://user-images.githubusercontent.com/14031360/179508614-10ff7272-442f-40df-84e1-12195780c8c7.jpg)
 
-Exemplu explicat (atentie lipseste autenficarea)
+Exemplu explicat (atentie lipseste autentificarea)
 ``` c#
 using (HttpRequestMessage httpRequestMessage = new HttpRequestMessage())
  {
